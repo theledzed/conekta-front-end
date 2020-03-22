@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const DropdownContainer = styled.div`
   position: relative;
   display: inline-block;
+
 `;
 
 export const ListUl = styled.ul`
@@ -30,5 +31,6 @@ export const ButtonDropdown = styled.div`
   height: 18px;
   cursor: pointer;
   font-weight: bold;
-  color: black;
+  color:#5b5a5d;
+  font-size: .87rem;
 `;

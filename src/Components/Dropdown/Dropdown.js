@@ -11,16 +11,11 @@ export const Dropdown = props => {
           setDisplayMenu(!displayMenu)
         }}
       >
-        My Setting
+        Robert Downer Jr.
         {displayMenu ? (
           <ListUl>
-            <ListLi>Create Page</ListLi>
-            <ListLi>Manage Pages </ListLi>
-            <ListLi>Create Ads </ListLi>
-            <ListLi>Manage Ads </ListLi>
-            <ListLi>Activity Logs</ListLi>
-            <ListLi>Setting</ListLi>
-            <ListLi>Log Out</ListLi>
+            <ListLi>Perfil</ListLi>
+            <ListLi>Cerrar Sesión </ListLi>
           </ListUl>
         ) : null}
       </ButtonDropdown>
