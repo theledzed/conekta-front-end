@@ -94,8 +94,9 @@ li:last-child {
   border-bottom: none;
 }
 li:hover {
-  background-color: #e5e5e5;
-  color: white;
+  background-color:  #eaf8f9;
+  color: #2d85a4;
+  font-weight: bold;
 }
 
 .button:before {
@@ -103,8 +104,8 @@ li:hover {
   position: absolute;
   width: 0px;
   height: 0px;
-  border: 10px solid;
-  border-color: white transparent transparent transparent;
-  right: 6px;
-  top: 18px;
+  border: 6px solid;
+  border-color: #bdbdbd transparent transparent transparent;
+  left: 75%;
+  bottom: 0;
 }

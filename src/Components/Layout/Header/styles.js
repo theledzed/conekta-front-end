@@ -12,15 +12,19 @@ export const Container = styled.div`
 export const Menu = styled.div`
    
   width: 20%;
-  margin: 1em;
+  margin: 1em 3rem;
   display: flex;
   flex-direction: row;
 `
 export const Logo = styled.div`
   border-radius: 5em;
-  width: 10%;
-   
+  width: 2rem;
+  height:2rem;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRB9sBg8yjDmfdDdVA36KOScX5wqbTZgFzUOQ8VZejrsNtOaO5F");
+  background-repite: no-repite;
+  background-position: center;
   padding: 1em;
+
 `
 export const Dopdrwon = styled.div`
    
@@ -33,10 +37,13 @@ export const Label = styled.p`
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  color: #bdbdbd;
+  font-size: .75rem;
 `
 
 export const MenuOptions = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  margin-left:1rem;
 `

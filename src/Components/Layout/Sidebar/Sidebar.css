@@ -1,0 +1,113 @@
+.sidebarContainer{
+    width:100%;
+    height: 5rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: block;
+    background-color: red;
+}
+
+
+.open{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.sidebarContent{
+    display: none;
+}
+.open .sidebarContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.closeButton{
+    display: none;
+}
+
+.open .closeButton{
+    display: flex;
+}
+
+.subMenuSections li{
+    padding:1rem 3rem;
+
+
+}
+
+.sectionActive{
+    border-left: solid 5px #2d85a4;
+}
+
+
+.subSectionActive{
+    background-color:  #eaf8f9;
+    color: #2d85a4;
+    font-weight: bold;
+}
+
+.menuSections {
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0;
+}
+
+.menuSections li{
+    font-size: 1rem;
+    padding: 1rem 1rem;
+}
+
+.subMenuSections {
+    text-transform: capitalize;
+    padding: 0;
+    color: #bdbdbd;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .sidebarContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 20vw;
+        position: relative;
+    }
+
+    .buttonsContainer{
+        display: none;
+    }
+
+    .menuSections li{
+        font-size: 1rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .subMenuSections li{
+        padding:1rem 4rem;
+
+    }
+
+}

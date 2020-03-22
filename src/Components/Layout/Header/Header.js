@@ -3,6 +3,7 @@
 import React from "react";
 import { Container, Menu, Logo, Label, MenuOptions } from "./styles";
 import { Dropdown } from '../../Dropdown/Dropdown'
+import "./Header.css"
 
 export const Header = props => {
   return (
