@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap');
+
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -99,13 +103,55 @@ li:hover {
   font-weight: bold;
 }
 
-.button:before {
-  content: "";
-  position: absolute;
-  width: 0px;
-  height: 0px;
-  border: 6px solid;
-  border-color: #bdbdbd transparent transparent transparent;
-  left: 75%;
-  bottom: 0;
+
+
+.Table {
+  border-spacing: 0px;
+  background: #fff;
+  box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
+}
+
+.Cell {
+  border: 1px solid #f4f6f8;
+  padding: 4px;
+  text-align: left;
+}
+
+.payments {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+
+
+
+.containerDataTab{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+
+
+
+
+.flex-end{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.flex-spaceBetwen{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.ant-table-wrapper{
+  overflow-y: auto;
+  max-width: 100%;
 }

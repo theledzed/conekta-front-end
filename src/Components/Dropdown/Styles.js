@@ -27,10 +27,10 @@ export const ListLi = styled.li`
 `;
 
 export const ButtonDropdown = styled.div`
-  width: 178px;
   height: 18px;
   cursor: pointer;
   font-weight: bold;
   color:#5b5a5d;
   font-size: .87rem;
+  position: relative;
 `;

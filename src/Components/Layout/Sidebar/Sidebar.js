@@ -5,24 +5,25 @@ import { Container, HeaderSideBar } from "./styles"
 import { MENU_LAYOUT } from "./Constants";
 import "./Sidebar.css";
 import classNames from "classnames";
-
+import { MenuUnfoldOutlined, MenuFoldOutlined,ExperimentOutlined  } from "@ant-design/icons";
 export const Sidebar = props => {
 
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("Transactions")
   const [activeSubScetiion, setActiveSubSection] =useState("Payments")
   return (
     <div className={classNames("sidebarContainer", {"open": open})}>
       <div className="logoContainer">
-        <div>Logaso</div>
-        <div className="buttonsContainer">
-        <button type="button" onClick={()=>{setOpen(true)}}>Hamburguesa</button>
+        <ExperimentOutlined className="logo"/>
+          {!open &&         <button type="button" onClick={()=>{setOpen(true)}}>
+            <MenuUnfoldOutlined/>
+          </button>}
+
         {open &&
           <button type="button" onClick={()=>{setOpen(false)}} className="closeButton">
-            close
+            <MenuFoldOutlined/>
           </button>
         }
-        </div>
       </div>
       <div className={classNames("sidebarContent")}>
         <ol className={classNames("menuSections")}>

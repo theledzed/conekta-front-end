@@ -1,0 +1,25 @@
+.tabsContainer{
+    margin:1em;
+}
+
+.tabsHeader{
+    font-size: larger;
+    font-weight: 700;
+    border-bottom: 2px solid #bdbdbd;
+    margin: 0.5em;
+    min-width: 85%;
+}
+
+.tabs{
+    background-color: transparent;
+    border: none;
+    padding: .5rem 1.5rem;
+    margin-bottom: -.2rem;
+}
+
+.activeTab{
+    border-bottom: solid 3px black;
+    font-weight: bold;
+    color: black;
+}
+
