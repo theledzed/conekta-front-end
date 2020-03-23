@@ -1,7 +1,6 @@
 /* eslint-disable no-lone-blocks */
 /* eslint-disable no-unused-expressions */
 import React, { useState } from 'react'
-import { ContentCard } from './styles'
 import { Header } from '../Header/Header'
 import { PAYMENTS, PAYMENT_DETAIL } from './Constants'
 import { money } from '../../../Utils/Format'
@@ -116,8 +115,10 @@ export const Content = props => {
   ]
 
   return (
-    <div className='mainContent'>
-      <Header />
+    <div>
+      <div className='mainContent'>
+        <Header />
+      </div>
       <div>
         <Router>
           <PaymentDetail
