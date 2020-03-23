@@ -169,6 +169,11 @@ li:hover {
   font-weight: bold;
 }
 
+.titleSectionDetail{
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 1em;
+}
 
 .tableContainerPayments{
   width: 100%;
