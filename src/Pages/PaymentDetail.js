@@ -8,7 +8,7 @@ export const PaymentDetail = props => {
 
   return (
     <div>
-      <p className='titleSection'>Payment Details</p>
+      <p className='titleSectionDetail'>Payment Details</p>
       <Tabs
         sectionsTabs={[
           { name: 'Data', id: 1 },

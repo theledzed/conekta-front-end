@@ -29,6 +29,16 @@
     .mainContent{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding: 3rem;
+    }
+    
+    .mainContentPayment{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .mainTabs{

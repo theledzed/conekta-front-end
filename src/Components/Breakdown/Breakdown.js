@@ -57,7 +57,9 @@ export const Breakdown = props => {
   return (
     <div>
       <div>
-        <Table pagination={false} dataSource={props.data} columns={columns} />
+        <div className='tableContainerPayments'>
+          <Table pagination={false} dataSource={props.data} columns={columns} />
+        </div>
         <div className='breakdownFooter'>
           <div className='rowsContainer'>
             <div className='rowContainer'>

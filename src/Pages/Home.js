@@ -1,11 +1,13 @@
-import React from 'react'
-import { Table } from 'antd'
+import React from "react";
+import { Table } from "antd";
 
 export const Home = props => {
   return (
-    <div>
-      <p className='titleSection'>Payments</p>
-      <Table dataSource={props.dataSource} columns={props.columns} />
+    <div className="mainContentPayment">
+        <p className="titleSection">Payments</p>
+      <div className="tableContainerPayments">
+        <Table dataSource={props.dataSource} columns={props.columns} />
+      </div>
     </div>
-  )
-}
+  );
+};

@@ -31,6 +31,12 @@
     padding: .75rem;
 }
 
+.logoContainer button{
+   background-color: transparent;
+   border:none;
+}
+
+
 .menuButtonsContainer{
     display: flex;
     flex-direction: row;
