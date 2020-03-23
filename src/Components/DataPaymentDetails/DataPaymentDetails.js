@@ -8,7 +8,7 @@ import { Tabs } from '../Tabs/Tabs'
 import { Table } from 'antd'
 import './DataPaymentDetails.css'
 import { Tags } from '../Tag/Tag'
-import { UserOutlined, PhoneOutlined, MailOutlined } from '@ant-design/icons'
+import { UserOutlined, PhoneOutlined, MailOutlined, LinkOutlined } from '@ant-design/icons'
 
 export const DataPaymentDetails = props => {
   const PaymentStatus = PAYMENT_DETAIL.data.payment
@@ -106,8 +106,8 @@ export const DataPaymentDetails = props => {
                 <p className='value'>{props.idPayment} </p>
               </div>
               <div className='viewsContainer'>
-                <p className='viewSelected'>View transfer </p>
-                <p>View chargebarck </p>
+                <p className='viewSelected'>View transfer <LinkOutlined /> </p>
+                <p>View chargebarck <LinkOutlined /> </p>
               </div>
             </div>
           </Card>
