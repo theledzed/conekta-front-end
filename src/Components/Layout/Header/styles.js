@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -8,7 +8,6 @@ export const Container = styled.div`
 `
 
 export const Menu = styled.div`
-   
   margin: 1em 3rem;
   display: flex;
   flex-direction: row;
@@ -17,14 +16,12 @@ export const Logo = styled.div`
   border-radius: 5em;
   width: 2rem;
   height:2rem;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRB9sBg8yjDmfdDdVA36KOScX5wqbTZgFzUOQ8VZejrsNtOaO5F");
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRB9sBg8yjDmfdDdVA36KOScX5wqbTZgFzUOQ8VZejrsNtOaO5F');
   background-repite: no-repite;
   background-position: center;
   padding: 1em;
-
 `
 export const Dopdrwon = styled.div`
-   
   width: 90%;
 `
 
