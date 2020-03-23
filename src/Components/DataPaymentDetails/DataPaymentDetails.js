@@ -181,7 +181,9 @@ export const DataPaymentDetails = props => {
           active={1}
           className='innerTabs'
         >
-          <Table dataSource={PAYMENT_ATTEMPS} columns={columns} />
+          <div className='tableContainerPayments' >
+            <Table dataSource={PAYMENT_ATTEMPS} columns={columns} />
+          </div>
         </Tabs>
       </div>
     </div>
