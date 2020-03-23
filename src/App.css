@@ -109,3 +109,75 @@ li:hover {
   left: 75%;
   bottom: 0;
 }
+
+
+.Table {
+  border-spacing: 0px;
+  background: #fff;
+  box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
+}
+
+.Cell {
+  border: 1px solid #f4f6f8;
+  padding: 4px;
+  text-align: left;
+}
+
+.payments {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+.amountInformationContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerInformationPaymentMethod{
+background-color: #2d85a4;
+}
+
+.centeredInformationFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftPositionInformationFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.containerDataTab{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.cardsFlexRow{
+  display:flex;
+  flex-direction: row;
+}
+
+.cardsFlexColumn{
+  display:flex;
+  flex-direction: column;
+}
+
+.flex-end{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.flex-spaceBetwen{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

@@ -1,0 +1,17 @@
+.cardContainer{
+    background-color: #fff;
+    margin:1em;
+}
+
+.cardHeader{
+    font-size: larger;
+    font-weight: 700;
+    border-bottom: 1px solid;
+    padding: 0.5em 1em 0em 1em;
+    margin: 0.5em;
+}
+
+.cardBody{
+    padding: 0.5em 1em 0em 1em;
+    margin: 0.5em;
+}
