@@ -1,12 +1,17 @@
-import React, { useState } from "react";
-import { ListUl, DropdownContainer, ListLi, ButtonDropdown } from "./Styles"
+import React, { useState } from 'react'
+import { Link } from '@reach/router'
+import { ListUl, DropdownContainer, ListLi, ButtonDropdown } from './Styles'
+import {
+  UserOutlined,
+  ImportOutlined
+} from '@ant-design/icons'
 
 export const Dropdown = props => {
   const [displayMenu, setDisplayMenu] = useState(false)
   return (
     <DropdownContainer>
       <ButtonDropdown
-        className="button"
+        className='button'
         onClick={() => {
           setDisplayMenu(!displayMenu)
         }}
@@ -14,8 +19,13 @@ export const Dropdown = props => {
         Robert Downer Jr.
         {displayMenu ? (
           <ListUl>
-            <ListLi>Perfil</ListLi>
-            <ListLi>Cerrar Sesión </ListLi>
+            <Link to='/'>
+              <ListLi><UserOutlined className='iconSideBar' /> Perfil</ListLi>
+            </Link>
+            <Link to='/'>
+              {' '}
+              <ListLi> <ImportOutlined className='iconSideBar' /> Cerrar Sesión </ListLi>
+            </Link>
           </ListUl>
         ) : null}
       </ButtonDropdown>

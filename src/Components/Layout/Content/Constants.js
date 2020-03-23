@@ -245,8 +245,6 @@ export const PAYMENTS = [
   }
 ]
 
-
-/* eslint-disable quote-props */
 export const PAYMENT_ATTEMPS = [
   {
     id: 'ord_2m9fvZfVz97nQhMmg',
@@ -261,8 +259,6 @@ export const PAYMENT_ATTEMPS = [
     customer: { name: 'Juan Lopez', email: 'jorge@gmail.com' }
   }
 ]
-
-
 
 export const PAYMENT_DETAIL = {
   'data': {

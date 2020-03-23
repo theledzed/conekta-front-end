@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const DropdownContainer = styled.div`
   position: relative;
   display: inline-block;
 
-`;
+`
 
 export const ListUl = styled.ul`
   list-style-type: none;
@@ -19,12 +19,12 @@ export const ListUl = styled.ul`
 
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-`;
+`
 
 export const ListLi = styled.li`
   padding: 8px 16px;
   border-bottom: 1px solid #e5e5e5;
-`;
+`
 
 export const ButtonDropdown = styled.div`
   height: 18px;
@@ -33,4 +33,4 @@ export const ButtonDropdown = styled.div`
   color:#5b5a5d;
   font-size: .87rem;
   position: relative;
-`;
+`

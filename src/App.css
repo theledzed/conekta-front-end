@@ -11,6 +11,10 @@ html {
   height: 100%;
 }
 
+Link{
+  color:black;
+}
+
 html,
 body,
 div,
@@ -154,4 +158,9 @@ li:hover {
 .ant-table-wrapper{
   overflow-y: auto;
   max-width: 100%;
+}
+
+.titleSection{
+  font-size: x-large;
+  font-weight: bold;
 }
