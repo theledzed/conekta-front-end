@@ -4,5 +4,10 @@ import { Content } from './Content/Content'
 import { Container } from './Styles'
 
 export const Layout = (props) => {
-  return (<Container> <Sidebar />  <Content /> </Container>)
+  return (
+
+    <div className="container">
+      <Sidebar />
+     <Content />
+    </div>)
 }

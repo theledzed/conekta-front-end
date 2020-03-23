@@ -1,17 +1,14 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-   
-  width: 100%;
-  height: 10vh;
   display: flex;
   flex-direction: row;
+  width:100%;
   justify-content: flex-end;
 `
 
 export const Menu = styled.div`
    
-  width: 20%;
   margin: 1em 3rem;
   display: flex;
   flex-direction: row;

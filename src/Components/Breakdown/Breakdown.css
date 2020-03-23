@@ -1,0 +1,48 @@
+.breakdownFooter{
+    background-color: white;
+    padding: 1rem;
+}
+
+
+.breakdownValue{
+    font-size: 1rem;
+    color: #5a5a5a;
+    text-align: right;
+}
+
+.breakdownTotal{
+    font-size: 1.25rem;
+    text-align: right;
+    font-weight: 500;
+}
+
+.breakdownSubtitle{
+    font-size: 1rem;
+    color: #5a5a5a;
+}
+
+.breakdownTotalTitle{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.rowContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rowsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .rowContainer{
+        width: 30%;
+
+    }
+}
